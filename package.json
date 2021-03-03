@@ -1,13 +1,13 @@
 {
-	"name": "mongo-to-grafana",
+	"name": "mongo-to-grafana-server",
 	"private": true,
 	"version": "1.0.0",
 	"description": "",
-	"main": "server/mongo-proxy.js",
+	"main": "mongo-proxy.js",
 	"scripts": {
 		"build": "gulp",
 		"test": "echo 'No test found'",
-		"server": "cd server && node mongo-proxy.js"
+		"server": "node mongo-proxy.js"
 	},
 	"repository": {
 		"type": "git",
